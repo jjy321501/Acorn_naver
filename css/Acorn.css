@@ -75,6 +75,22 @@ input{
     box-sizing:border-box;
     margin: auto;
 }
-
+.green{
+    color: rgb(4, 224, 151);
+    font-weight: bold;
+}
+.black{
+    color: black;
+    font-weight: bold;
+}
+.ablack{ /*더보기 창 a tag 검은색*/
+    color:rgb(104, 103, 103);
+}
+.dlbox{ /*더보기 밑에 설정 제한폭 때문에 아래로 내려가는거 조정*/
+    width: 150px;
+    height: 275px;
+    border-right: solid thin gray;
+    margin-left: 5px;
+}
 
 
