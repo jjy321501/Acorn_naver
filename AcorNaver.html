@@ -29,7 +29,7 @@
         <div>
             <nav class="navbar navbar-expand navbar-success bg-white">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav row align-items-start">
                     <li class="nav-item">
                         <a class="nav-link green" href="https://mail.naver.com/">메일 <span class="sr-only">(current)</span></a>
                     </li>
@@ -78,46 +78,93 @@
                     <li class="nav-item">
                         <a class="nav-link black" href="https://comic.naver.com/index.nhn">웹툰<span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                더보기
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                              <div class="container">
-                                <div class="row">
-                                  <dl>
-                                    <dt>ㄱ-ㅁ</dt>
-                                    <dd><a class="dropdown-item" href="#">Action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Another action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Something else here</a></dd>
-                                  </dl>
-                                  <dl>
-                                    <dt>ㅂ-ㅈ</dt>
-                                    <dd><a class="dropdown-item" href="#">Action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Another action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Something else here</a></dd>
-                                  </dl>
-                                  <dl>
-                                    <dt>ㅊ-ㅎ</dt>
-                                    <dd><a class="dropdown-item" href="#">Action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Another action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Something else here</a></dd>
-                                  </dl>
-                                  <dl>
-                                    <dt>A-H</dt>
-                                    <dd><a class="dropdown-item" href="#">Action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Another action</a></dd>
-                                    <dd><a class="dropdown-item" href="#">Something else here</a></dd>
-                                  </dl>
+                    <li>
+                        <a class="btn btn-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            더보기⋎
+                        </a>
+                    </li>    
+                        <div class="collapse" id="collapseExample">
+                            <div class="container">
+                                <div class="row align-items-center">
+                                    <dl>
+                                        <dt>ㄱ-ㅁ</dt>
+                                        <dd><a href="#">날씨</a></dd>
+                                        <dd><a href="#">네이버 MY CAR</a></dd>
+                                        <dd><a href="#">네이버 게임</a></dd>
+                                        <dd><a href="#">네이버 예약</a></dd>
+                                        <dd><a href="#">네이버플러스 멤버십</a></dd>
+                                        <dd><a href="#">뉴스</a></dd>
+                                        <dd><a href="#">데이터랩</a></dd>
+                                        <dd><a href="#">메모</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>ㅂ-ㅅ</dt>
+                                        <dd><a href="#">밴드</a></dd>
+                                        <dd><a href="#">부동산</a></dd>
+                                        <dd><a href="#">북마크</a></dd>
+                                        <dd><a href="#">소프트웨어</a></dd>
+                                        <dd><a href="#">스포츠</a></dd>
+                                        <dd><a href="#">시리즈</a></dd>
+                                        <dd><a href="#">시리즈온</a></dd>
+                                        <dd></dd>                                        
+                                    </dl>
+                                    <dl>
+                                        <dt>ㅇ</dt>
+                                        <dd><a href="#">영화</a></dd>
+                                        <dd><a href="#">오디오클립</a></dd>
+                                        <dd><a href="#">오피스</a></dd>
+                                        <dd><a href="#">웨일</a></dd>
+                                        <dd><a href="#">웹소설</a></dd>
+                                        <dd><a href="#">웹툰</a></dd>
+                                        <dd><a href="#">인플루언서 검색</a></dd>                                      
+                                    </dl>
+                                    <dl>
+                                        <dt>ㅈ-ㅊ</dt>
+                                        <dd><a href="#">자동차</a></dd>
+                                        <dd><a href="#">주소록</a></dd>
+                                        <dd><a href="#">증권</a></dd>
+                                        <dd><a href="#">지도</a></dd>
+                                        <dd><a href="#">지식백과</a></dd>
+                                        <dd><a href="#">책</a></dd>                                        
+                                    </dl>
+                                    <dl>
+                                        <dt>ㅋ-ㅎ</dt>
+                                        <dd><a href="#">캘린더</a></dd>
+                                        <dd><a href="#">클로바더빙</a></dd>
+                                        <dd><a href="#">파파고</a></dd>
+                                        <dd><a href="#">포스트</a></dd>
+                                        <dd><a href="#">학술정보</a></dd>
+                                        <dd><a href="#">항공권</a></dd>
+                                        <dd><a href="#">호텔</a></dd>                                        
+                                    </dl>
+                                    <dl>
+                                        <dt>A-Z</dt>
+                                        <dd><a href="#">Keep</a></dd>
+                                        <dd><a href="#">modoo!</a></dd>
+                                        <dd><a href="#">MYBOX</a></dd>
+                                        <dd><a href="#">MY구독</a></dd>
+                                        <dd><a href="#">TV연예</a></dd>
+                                        <dd><a href="#">VIBE</a></dd>
+                                        <dd><a href="#">V LIVE</a></dd>                                        
+                                    </dl>
+                                    <dl>
+                                        <dt>사전</dt>
+                                        <dd><a href="#">사전</a></dd>
+                                        <dd><a href="#">국어사전</a></dd>
+                                        <dd><a href="#">영어/영영사전</a></dd>
+                                        <dd><a href="#">일본어사전</a></dd>
+                                        <dd><a href="#">중국어사전</a></dd>
+                                        <dd><a href="#">한자사전</a></dd>
+                                        <dd><a href="#">사전 더보기 > </a></dd>                                        
+                                    </dl>                                    
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    
                   </ul>
                 </div>
               </nav>
         </div>
-
         <!--다음꺼-->
         <div></div>
         <div></div>
